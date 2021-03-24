@@ -43,12 +43,15 @@ function Airplane(name) {
     this.name = name;
     this.age = age;
     this.stomach = [];
-    this.eat = function(someFood){
-      // be sure to add the functionality of The `eat` method should have no effect if there are 10 items in the `stomach`
-      if(this.stomach.length < 10){
-        this.stomach.push(someFood);
-      }
-      
+ }
+ Person.prototype.eat = function(edible){
+   if(this.stomach.length < 10){
+     this.stomach.push(edible);
+
+     
+   }
+ }
+    
     };
     this.poop = function(){
       // add logic to empty stomach array
