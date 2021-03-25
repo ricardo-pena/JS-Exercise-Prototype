@@ -115,10 +115,10 @@ function Airplane(name) {
   /* 
     TASK 4 ,,
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. window - becomes the console object.
+    2. implicit binding - Object followed by this
+    3. new binding - creating a constructor function and using the new keyword.
+    4. explicit binding - when we explicity define this.
   */
   
   
